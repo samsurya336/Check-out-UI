@@ -1,0 +1,29 @@
+
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.list-contents{
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    width: 100%;
+    color: grey;
+    height: 5px;
+}
